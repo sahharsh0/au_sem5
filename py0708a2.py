@@ -1,5 +1,5 @@
 '''
-  Library Management System: Manage book inventory, users, and transactions using if else statements, functions, and loops
+  Library Management System: Manage book inventory, users, and transactions
 '''
 def user_login(users, username, password):
     if username in users and users[username] == password:
@@ -41,7 +41,7 @@ def transaction(inventory, book_title, action):
             print(f"'{book_title}' was not borrowed or does not exist in the inventory.")
 def main():
     users = {"admin": "password123", "user1": "pass1"}
-    inventory = ['The Great Gatsby', 'To Kill a Mockingbird', '1984', 'Pride and Prejudice']
+    inventory = ['The Great Gatsby', 'The Metamorphosis', '1984', 'Pride and Prejudice']
     
     username = input("Enter username: ")
     password = input("Enter password: ")

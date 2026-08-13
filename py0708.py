@@ -1,5 +1,5 @@
 '''
-Bank Account Management System: Simulate a basic banking system (deposit, withdraw, balance check) using if else statements and functions and loops
+Bank Account Management System: Simulate a basic banking system (deposit, withdraw, balance check)SS
 '''
 def deposit(balance, amount):
     balance += amount
@@ -31,7 +31,7 @@ def main():
         elif choice == "3":
             check_balance(balance)
         elif choice == "4":
-            print("Thank you for using our banking system.")
+            print("Thank you for using banking system.")
             break
         else:
             print("Invalid choice. Please try again.")
