@@ -1,0 +1,16 @@
+import numpy as np
+from numpy import random
+a= random.randint(1,20, size=(4,4))
+sum = np.sum(a)
+mean = np.mean(a)
+max = np.max(a)
+min = np.min(a)
+row_sum = np.sum(a, axis=1)
+col_sum = np.sum(a, axis=0)
+print("Array:\n", a)
+print("Sum:", sum)
+print("Mean:", mean)
+print("Max:", max)
+print("Min:", min)
+print("Row Sum:", row_sum)
+print("Column Sum:", col_sum)
